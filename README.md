@@ -1,6 +1,6 @@
 # HYFER-DATA-MODEL
 
-Unit test app for the Hyfer data MODEL
+Unit test app for the Hyfer data model
 
 After cloning type `npm install` to install dependencies.
 
