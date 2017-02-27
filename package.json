@@ -1,0 +1,19 @@
+{
+    "name": "hyfer-data-model",
+    "version": "1.0.0",
+    "description": "Standalone unit tests for Hyfer datamodel",
+    "main": "index.js",
+    "scripts": {
+        "test": "nodemon --exec 'mocha -R min'"
+    },
+    "author": "HackYourFuture",
+    "license": "ISC",
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.2.0",
+        "nodemon": "^1.11.0"
+    },
+    "dependencies": {
+        "mysql": "^2.13.0"
+    }
+}
