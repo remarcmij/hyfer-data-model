@@ -20,7 +20,7 @@ describe('User stories - User', () => {
 
     it('should get timeline data for a specific group', done => {
         db.getTimelineForGroup(1)
-            .then(done)
+            .then(() => done())
             .catch(err => done(err));
     });
 
